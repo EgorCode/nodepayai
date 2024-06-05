@@ -15,7 +15,7 @@ from flask import Flask
 import hashlib
 import sys
 
-extensionId = 'ilehaonighjijnmpnagapkhpcdbhclfg'
+extensionId = 'lgmpfmgeabnnlemejacfljbmonaomfmm'
 CRX_URL = "https://clients2.google.com/service/update2/crx?response=redirect&prodversion=98.0.4758.102&acceptformat=crx2,crx3&x=id%3D~~~~%26uc&nacl_arch=x86-64"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
 
