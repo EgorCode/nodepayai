@@ -1,12 +1,10 @@
-# Grass
+# Nodepay
 An unofficial Docker Image for nodepay
 Available on [Docker Hub](https://hub.docker.com/egocode/nodepayai)
 
-## What's Grass?
-Grass allows you to earn passive income by sharing your network bandwidth
 
 ## How to get started?
-1. Register a Grass Account if you don't have one already: [getgrass.io](https://app.getgrass.io/register/?referralCode=VqlevN7hfQLGGiQ)
+1. Register a Grass Account if you don't have one already: [nodepay]
 2. Either build this image from source, or download it from Docker Hub
 3. Set envriomental variables to their respective values: GRASS_USER and GRASS_PASS
 4. You're good to go! Once started, the docker exposes your current network status and lifetime earnings on port 80
@@ -19,7 +17,7 @@ docker run -d \
     -e GRASS_USER=myuser@mail.com \
     -e GRASS_PASS=mypass \
     -e ALLOW_DEBUG=False \
-    camislav/grass
+    egocode/nodepay
 ```
 
 Please replace 8080 with the port you want to be able to access the status with, as well as GRASS_USER and GRASS_PASS
