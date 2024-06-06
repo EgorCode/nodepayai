@@ -12,7 +12,7 @@ Available on [Docker Hub](https://hub.docker.com/egocode/nodepayai)
 ### Docker Run Command
 ```
 docker run -d \
-    --name Grass \
+    --name nodepay \
     -p 8080:80 \
     -e GRASS_USER=myuser@mail.com \
     -e GRASS_PASS=mypass \
